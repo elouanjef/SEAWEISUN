@@ -1,11 +1,17 @@
-import {environment} from "./environments/environment";
+import {environment} from "./environments/environment.js";
 
+import express from 'express'
+import bodyParser from 'body-parser'
+import sgMail from '@sendgrid/mail'
+import schedule from 'node-schedule-tz'
+import https from 'https'
+/*
 var express = require('express');
 var bodyParser = require('body-parser');
 var sgMail = require('@sendgrid/mail');
 var schedule = require('node-schedule-tz');
 var https = require('https');
-
+*/
 var app = express();
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());

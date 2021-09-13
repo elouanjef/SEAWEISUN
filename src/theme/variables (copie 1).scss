@@ -5,44 +5,44 @@
 
 :root {
   /** primary **/
-  --ion-color-primary: #3BA7CD;
-  --ion-color-primary-rgb: 59, 167, 205;
-  --ion-color-primary-contrast: #fffefe;
-  --ion-color-primary-contrast-rgb: 255, 254, 254;
-  --ion-color-primary-shade: #ff96b9;
-  --ion-color-primary-tint: #cf86a4;
+  --ion-color-primary: #fcb73b;
+  --ion-color-primary-rgb: 252, 171, 42;
+  --ion-color-primary-contrast: #325e7b;
+  --ion-color-primary-contrast-rgb: 50, 94, 123;
+  --ion-color-primary-shade: #fc9617;
+  --ion-color-primary-tint: #facf5a;
 
   /** secondary **/
-  --ion-color-secondary: #e286a4;
-  --ion-color-secondary-rgb: 201, 185, 16;
+  --ion-color-secondary: #0cd1e8;
+  --ion-color-secondary-rgb: 12, 209, 232;
   --ion-color-secondary-contrast: #ffffff;
   --ion-color-secondary-contrast-rgb: 255, 255, 255;
-  --ion-color-secondary-shade: #e286a4;
-  --ion-color-secondary-tint: #e286a4;
+  --ion-color-secondary-shade: #0bb8cc;
+  --ion-color-secondary-tint: #24d6ea;
 
   /** tertiary **/
-  --ion-color-tertiary: #e286a4;
-  --ion-color-tertiary-rgb: 255, 255, 255;
+  --ion-color-tertiary: #E39B54;
+  --ion-color-tertiary-rgb: 227,155,84;
   --ion-color-tertiary-contrast: #000;
   --ion-color-tertiary-contrast-rgb: 0, 0, 0;
-  --ion-color-tertiary-shade: #e286a4;
-  --ion-color-tertiary-tint: #e286a4;
+  --ion-color-tertiary-shade: #C28448;
+  --ion-color-tertiary-tint: #FFAE5F;
 
   /** success **/
-  --ion-color-success: linear-gradient(to right bottom, #3BA7CD, #45A7CD, #4FA7CD, #59A7CD, #59A7CD, #4FA7CD, #45A7CD, #3BA7CD);
-  --ion-color-success-rgb: 226,134,164;
+  --ion-color-success: linear-gradient(to right bottom, #fc9516, #fca122, #fcac2e, #fcb73b, #fcb73b, #fcb73b, #fcc147, #fcc147);
+  --ion-color-success-rgb: 255,193,7;
   --ion-color-success-contrast: #424242;
   --ion-color-success-contrast-rgb: 66,66,66;
-  --ion-color-success-shade: #e286a4;
-  --ion-color-success-tint: #e286a4;
+  --ion-color-success-shade: #c29e0e;
+  --ion-color-success-tint: #e0b828;
 
   /** warning **/
-  --ion-color-warning: #FF86CB;
-  --ion-color-warning-rgb: 226,134,164;
+  --ion-color-warning: #FF861F;
+  --ion-color-warning-rgb: 255, 134, 31;
   --ion-color-warning-contrast: #4b4b4b;
   --ion-color-warning-contrast-rgb: 75, 75, 75;
-  --ion-color-warning-shade: #f1b3de;
-  --ion-color-warning-tint: #FF9ADF;
+  --ion-color-warning-shade: #B05D15;
+  --ion-color-warning-tint: #FF9A1E;
 
   /** danger **/
   --ion-color-danger: #E52727;
@@ -53,20 +53,20 @@
   --ion-color-danger-tint: #FF3C3C;
 
   /** dark **/
-  --ion-color-dark: #3BA7CD;
+  --ion-color-dark: #715603;
   --ion-color-dark-rgb: 113, 86, 3;
   --ion-color-dark-contrast: #ffffff;
   --ion-color-dark-contrast-rgb: 255, 255, 255;
-  --ion-color-dark-shade: #ff96e1;
-  --ion-color-dark-tint: #e286c8;
+  --ion-color-dark-shade: #594402;
+  --ion-color-dark-tint: #E6AF06;
 
   /** medium **/
-  --ion-color-medium: #e286c8;
+  --ion-color-medium: #C9B910;
   --ion-color-medium-rgb: 201, 185, 16;
   --ion-color-medium-contrast: #444;
   --ion-color-medium-contrast-rgb: 68, 68, 68;
-  --ion-color-medium-shade: #b486a4;
-  --ion-color-medium-tint: #e28aa4;
+  --ion-color-medium-shade: #756C09;
+  --ion-color-medium-tint: #E7D512;
 
   /** light **/
   --ion-color-light: #F8F8F8;
@@ -91,10 +91,10 @@
   --ion-list-background: transparent;
 
   ion-content#auth {
-    --background: linear-gradient(to right top, #3BA7CD, #45A7CD, #4FA7CD, #4FA7CD, #45A7CD, #3BA7CD) !important;
+    --background: linear-gradient(to right top, #fb9e22, #faae32, #fabc43, #fabc43, #faae32, #fb9e22) !important;
     ion-button {
-      --background: var(--ion-color-secondary-contrast) !important;
-      color: var(--ion-color-secondary) !important;
+      --background: var(--ion-color-primary-contrast) !important;
+      color: var(--ion-color-primary) !important;
     }
   }
 
@@ -225,7 +225,7 @@
 
 /** MENU **/
 ion-menu ion-content {
-  --background: linear-gradient(to right bottom, #3BA7CD, #45A7CD, #4FA7CD, #59A7CD, #64A7CD, #6EA7CD, #64A7CD, #59A7CD, #4FA7CD, #45A7CD, #3BA7CD, #3BA7CD) !important;
+  --background: linear-gradient(to right bottom, #fc9516, #fca122, #fcac2e, #fcb73b, #fcc147, #fcc147, #fcc147, #fcc147, #fcb63a, #fcab2e, #fca022, #fc9416) !important;
 }
 ion-menu-toggle ion-item ion-label {
   text-transform: uppercase !important;

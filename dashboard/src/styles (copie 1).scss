@@ -60,7 +60,7 @@ body, html {
     height: 60px;
     width: 60px;
     border: 3px solid transparent;
-    border-top-color: #e286a4;
+    border-top-color: #e0562c;
     top: -30px;
     left: 50%;
     margin: -30px;
@@ -75,7 +75,7 @@ body, html {
     }
 
     &:before{
-      border-top-color: #e79bb3;
+      border-top-color: #f22e2e;
       top: -12px;
       left: -12px;
       right: -12px;
@@ -117,7 +117,7 @@ a:focus {
 
 a:hover {
   text-decoration: none;
-  color: #e286a4;
+  color: #6a7dfe;
 }
 
 /*---------------------------------------------*/
@@ -311,7 +311,7 @@ iframe {
   -moz-transition: all 0.4s;
   transition: all 0.4s;
 
-  background-image: linear-gradient(to right top, #3BA7CD, #45A7CD, #4FA7CD, #59A7CD, #59A7CD, #4FA7CD, #45A7CD, #45A7CD, #3BA7CD);
+  background-image: linear-gradient(to right top, #e0562c, #ed751f, #f5940c, #f8b400, #f5d400, #dde42b, #c3f24d, #a7ff6f, #7cff99);
  }
 
 .focus-inputAuth::after {
@@ -379,7 +379,7 @@ iframe {
   z-index: -1;
   width: 300%;
   height: 100%;
-  background-image: linear-gradient(to right top, #3BA7CD, #45A7CD, #4FA7CD, #4FA7CD, #45A7CD, #3BA7CD);
+  background-image: linear-gradient(to right top, #e0562c, #ed751f, #f5940c, #f8b400, #f5d400, #dde42b);
   top: 0;
   left: -100%;
 
@@ -434,11 +434,11 @@ iframe {
 }
 
 .btn-show-pass:hover {
-  color: #e286a4;
+  color: #6a7dfe;
 }
 
 .btn-show-pass.active {
-  color: #e286a4;
+  color: #6a7dfe;
 }
 
 
