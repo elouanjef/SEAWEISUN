@@ -1,0 +1,99 @@
+<app-header-menu></app-header-menu>
+
+<ion-content padding>
+    <div class="ion-text-center">
+        Quelques informations et numéros utiles <ion-icon style="color: red" name="heart"></ion-icon>
+    </div>
+    <ion-list>
+        <ion-button (click)="_sys.goTo(_sys.WEI_LINK + '/breviaire.pdf')" expand="full">
+            <ion-icon name="musical-notes" slot="start"></ion-icon>
+            Le bréviaire
+        </ion-button>
+        <ion-card>
+            <ion-card-header>
+                <ion-card-title>En cas d'<strong>urgence</strong></ion-card-title>
+                <ion-card-subtitle>A ne contacter qu'en cas d'urgence</ion-card-subtitle>
+            </ion-card-header>
+            <ion-card-content>
+                <ion-img src="../../assets/img/numeros_urgence.png"></ion-img>
+            </ion-card-content>
+        </ion-card>
+        <ion-card>
+            <ion-card-header>
+                <ion-card-title>Le BDE</ion-card-title>
+                <ion-card-subtitle>Pour avoir des infos</ion-card-subtitle>
+            </ion-card-header>
+            <ion-card-content>
+                <ion-list>
+                    <ion-list-header>Présidents</ion-list-header>
+                    <ion-item (click)="_sys.call('0695783585')">
+                        <ion-avatar slot="start">
+                            <img src="assets/img/equipe/irma.jpg">
+                        </ion-avatar>
+                        <ion-label>
+                            <h2>Irma Brault</h2>
+                            <p>06 98 90 48 60</p>
+                        </ion-label>
+                    </ion-item>
+                    <ion-item (click)="_sys.call('0787602529')">
+                        <ion-avatar slot="start">
+                            <img src="assets/img/equipe/emile.jpg">
+                        </ion-avatar>
+                        <ion-label>
+                            <h2>Emile Mauret</h2>
+                            <p>07 83 28 35 15</p>
+                        </ion-label>
+                    </ion-item>
+                    
+
+                </ion-list>
+                <ion-list>
+                    <ion-list-header>Responsables animation</ion-list-header>
+                    <ion-item>
+                        <ion-avatar slot="start">
+                            <img src="assets/img/equipe/augustin.jpg">
+                        </ion-avatar>
+                        <ion-label>
+                            <h2>Augustin Schreck</h2>
+                            <p>06 68 57 14 13</p>
+                        </ion-label>
+                    </ion-item>
+                    <ion-item>
+                        <ion-avatar slot="start">
+                            <img src="assets/img/equipe/theo.jpg">
+                        </ion-avatar>
+                        <ion-label>
+                            <h2>Théo Biotteau</h2>
+                            <p>06 38 34 42 74</p>
+                        </ion-label>
+                    </ion-item>
+                </ion-list>
+                <ion-list>
+                    <ion-list-header>Responsable appli</ion-list-header>
+                    <ion-item>
+                        <ion-avatar slot="start">
+                            <img src="assets/img/equipe/elouan.jpg">
+                        </ion-avatar>
+                        <ion-label>
+                            <h2>Elouan Rabouin</h2>
+                            <p>06 82 42 29 83</p>
+                        </ion-label>
+                    </ion-item>
+                </ion-list>
+ 
+            </ion-card-content>
+        </ion-card>
+        <ion-card>
+            <ion-card-header>
+                <ion-card-title>L'application SeaWeiAndSun</ion-card-title>
+                <ion-card-subtitle>Quelques infos au sujet de l'appli</ion-card-subtitle>
+            </ion-card-header>
+            <ion-card-content>
+                <ion-item>Version : {{version}}</ion-item>
+                <ion-item><p>Contact : </p><a href="mailto:webmaster@bde.insa-cvl.fr">webmaster@bde.insa-cvl.fr</a></ion-item>
+
+            </ion-card-content>
+        </ion-card>
+    </ion-list>
+    <p class="credits">Made with <ion-icon name="heart"></ion-icon> by Raphaël Sfeir</p>
+</ion-content>
