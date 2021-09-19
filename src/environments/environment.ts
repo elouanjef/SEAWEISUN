@@ -21,7 +21,7 @@ export const environment = {
 		url: 'https://spring-wei-1559495273224.firebaseio.com' // Insérer l'URL vers l'API de l'appli
 	},
 	links: {
-		dashboard: 'https://wei.campus.insa-cvl.fr', // Insérer l'URL vers le tableau de bord
+		dashboard: 'https://wei.insa-cvl.org/dashboard', // Insérer l'URL vers le tableau de bord
 		website: '', // Insérer l'URL vers le site du WEI
 		campus: 'https://campus.insa-cvl.fr'
 	}

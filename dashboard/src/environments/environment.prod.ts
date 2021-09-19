@@ -17,7 +17,7 @@ export const environment = {
 
   },
   links: {
-    dashboard: 'https://wei.campus.insa-cvl.fr', // Insérer l'URL vers le tableau de bord
+    dashboard: 'https://wei.insa-cvl.org/dashboard', // Insérer l'URL vers le tableau de bord
     campus: 'https://campus.insa-cvl.org'
   }
 };
